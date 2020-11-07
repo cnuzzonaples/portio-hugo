@@ -396,13 +396,13 @@ function initialize() {
     // SET THE CENTER
     center: mapCenter,
     // SET THE MAP STYLE & ZOOM LEVEL
-    mapTypeId: google.maps.MapTypeId.HYBRID,
+    mapTypeId: google.maps.MapTypeId.hybrid,
     // REMOVE ALL THE CONTROLS EXCEPT ZOOM
-    zoom: 16,
+    zoom: 15,
     panControl: false,
     scrollwheel: false,
     zoomControl: true,
-    mapTypeControl: false,
+    mapTypeControl: true,
     scaleControl: false,
     streetViewControl: false,
     overviewMapControl: false,
